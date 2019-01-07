@@ -15,7 +15,7 @@ mongoose
   .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
-  res.send('Hello Node');
+  res.send('Hello');
 });
 
 const port = process.env.PORT || 5000;
